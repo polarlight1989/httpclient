@@ -1,0 +1,9 @@
+<?php
+return [
+    'RABBITMQ_HOST' => '@RABBITMQ_HOST@',
+    'RABBITMQ_PORT' => '@RABBITMQ_PORT@',
+    'RABBITMQ_USERNAME' => '@RABBITMQ_USERNAME@',
+    'RABBITMQ_PASSWORD' => '@RABBITMQ_PASSWORD@',
+    'RABBITMQ_HTTPPORT' => '@RABBITMQ_HTTPPORT@',
+    'routingKey' => 'adStructTask'
+];

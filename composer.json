@@ -1,0 +1,18 @@
+{
+    "name": "meetsocial/httpclient",
+    "require": {
+        "meetsocial/swoolemq": "dev-master" 
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpAmqpLib\\": "vendor/meetsocial/swoolemq/PhpAmqpLib"
+        }
+    },
+    "repositories" : [
+        {
+            "type":"vcs",
+            "no-api": true,
+            "url":"git@192.168.1.6:meetsocial/swoolemq.git"
+        } 
+    ]
+}
