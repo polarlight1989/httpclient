@@ -5,14 +5,15 @@
     },
     "autoload": {
         "psr-4": {
-            "PhpAmqpLib\\": "vendor/meetsocial/swoolemq/PhpAmqpLib"
+            "PhpAmqpLib\\": "vendor/meetsocial/swoolemq/PhpAmqpLib",
+            "OSS\\": "vendor/OSS"
         }
     },
     "repositories" : [
         {
             "type":"vcs",
             "no-api": true,
-            "url":"git@192.168.1.6:meetsocial/swoolemq.git"
+            "url":"git@github.com:polarlight1989/php-amqplib.git"
         } 
     ]
 }
